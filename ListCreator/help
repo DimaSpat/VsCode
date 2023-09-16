@@ -1,0 +1,1 @@
+Checkboxes and radios are input types that let users select one or more options from a list. Checkboxes allow users to select multiple options, while radios allow users to select only one option. To create checkboxes and radios, you need to use the input element with the type attribute set to checkbox or radio.
