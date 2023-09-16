@@ -9,10 +9,28 @@
 <body>
     <div class="container">
         <div class="questions">
-            <div class="question">
-                <p class="questionText">Test</p>
-                <input type="radio" name="answer1" id="asnwer1">
+            <h1 class="title">Types of questions</h1>
+            <div class="question-radio">
+                <p class="question-text">Question with radio inputs</p>
+                <input type="radio" name="radio" id="radio1">
+                <label for="radio1">True</label><br>
+                <input type="radio" name="radio" id="radio2">
+                <label for="radio2">False</label><br>
             </div>
+            <div class="question-checkbox">
+                <p class="question-text">Question with checkbox inputs</p>
+                <input type="checkbox" name="checkbox" id="checkbox1">
+                <label for="checkbox1">Response 1</label><br>
+                <input type="checkbox" name="checkbox" id="checkbox2">
+                <label for="checkbox2">Response 2</label><br>
+                <input type="checkbox" name="checkbox" id="checkbox3">
+                <label for="checkbox3">Response 3</label><br>
+            </div>
+            <div class="question-input">
+                <p class="question-text">Question with input value</p>
+                <input type="text" id="input1" placeholder="Input something please."><br>
+            </div>
+            <input type="submit" value="submit">
         </div>
     </div>
 
